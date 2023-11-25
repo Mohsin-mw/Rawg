@@ -5,6 +5,10 @@ import "@fontsource/raleway/400.css";
 import App from "./App.tsx";
 import "./index.css";
 import theme from "./theme.ts";
+
+
+// Routung Bug Fixed
+
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
   <React.StrictMode>
     <ChakraProvider theme={theme}>
